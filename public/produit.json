@@ -1,0 +1,94 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "mainImg": "https://cdn.manomano.com/piscine-tubulaire-intex-xtr-rectangulaire-549x274x132cm-P-6764151-18044510_1.jpg",
+        "image": "https://cdn.manomano.com/marque-intex-d344c09d-ecbd-4456-9ee1-1c78d70fcea1.jpeg",
+        "price_initial": "849€",
+        "price_final":"749€",
+        "brand":"Sponsorisé",
+        "title":"Piscine tubulaire INTEX piscine-tubulaire-intex-xtr-rectangulaire-549x274x132cm",
+        "stars":"(201)",
+        "laiv":"Livraison 48h gratuite"
+      },
+      {
+        "id": 2,
+        "mainImg": "https://cdn.manomano.com/kit-piscine-baltik-4-x-2-x-122-m-intex-P-34767973-130239318_1.jpg",
+        "image": "https://cdn.manomano.com/marque-intex-d344c09d-ecbd-4456-9ee1-1c78d70fcea1.jpeg",
+        "price_initial": "599€",
+        "price_final":"459€",
+        "brand":"Sponsorisé",
+        "title":"Kit Piscine Baltik - L. 400 x l. 200 x H. 122 cm - Intex",
+        "stars":"(234)",
+        "laiv":"Livraison 48h gratuite"
+      },
+      {
+        "id": 3,
+        "mainImg": "https://cdn.manomano.com/bestway-piscine-hors-sol-ovale-power-steel-swim-vista-motif-pierres-427-x-250-x-100-cm-P-30876011-94368850_1.jpg",
+        "image": "https://cdn.manomano.com/marque-bestway-647.png",
+        "price_final":"529€",
+        "brand":"Sponsorisé",
+        "title":"BESTWAY Piscine hors sol ovale Power Steel™ Swim Vista motif pierres 427 x 250 x 100 cm",
+        "stars":"(52)",
+        "laiv":"Livraison 48h gratuite"
+      },
+      {
+        "id": 4,
+        "mainImg": "https://cdn.manomano.com/images/images_products/35365226/L/127661643_1.jpg",
+        "image": "https://cdn.manomano.com/marque-ubbink-819.jpg",
+        "price_initial": "1 792,23€",
+        "price_final":"1 330,99€",
+        "brand":"Sponsorisé",
+        "title":"Piscine bois Ubbink SUNWATER rectangulaire 200x350x71cm liner bleu",
+        "stars":"(52)",
+        "laiv":"Livraison 48h gratuite"
+        
+      },
+      {
+        "id": 5,
+        "mainImg": "https://cdn.manomano.com/images/images_products/272650/L/11311063_1.jpg",
+        "image": "https://cdn.manomano.com/marque-bestway-647.png",
+        "price_final":"37,99€",
+        "brand":"Sponsorisé",
+        "title":"Piscine de jeu avec auvent bleu 140x140x114 cm 52192 Bestway",
+        "stars":"(13)",
+        "laiv":"Livraison 48h gratuite"
+        
+      },
+      {
+        "id": 6,
+        "mainImg": "https://cdn.manomano.com/images/images_products/821/P/55660906_1.jpg",
+        "image": "https://cdn.manomano.com/marque-gre-2109.jpg",
+        "price_initial": "4 308€",
+        "price_final":"4 076,63€",
+        "brand":"Sponsorisé",
+        "title":"GRE Piscine Mariposa en aluminium avec 2 transats intégrés - blanc - 282 x 219 x 60 cm",
+        "stars":"(1)",
+        "laiv":"Livraison 48h gratuite"
+        
+      },
+      {
+        "id": 7,
+        "mainImg": "https://cdn.manomano.com/piscine-tubulaire-rectangulaire-457x213x084m-summer-waves-P-15-13314659_1.jpg",
+        "image": "https://cdn.manomano.com/marque-summer-waves-258499.jpg",
+        "price_final":"229,99€",
+        "brand":"Sponsorisé",
+        "title":"xPiscine tubulaire rectangulaire 4,57x2,13x0,84m Summer Waves",
+        "stars":"(19)",
+        "laiv":"Livraison 48h gratuite"
+        
+      },
+      {
+        "id": 8,
+        "mainImg": "https://cdn.manomano.com/images/images_products/35365226/P/127661055_1.jpg",
+        "image": "https://cdn.manomano.com/marque-ubbink-819.jpg",
+        "price_initial": "6 792,55€",
+        "price_final":"5 151,99€",
+        "brand":"Sponsorisé",
+        "title":"Piscine bois Ubbink SUNWATER rectangulaire 300x555x140cm liner bleu" ,
+        "laiv":"Livraison 48h gratuite"
+        
+      }
+      
+    ]
+}

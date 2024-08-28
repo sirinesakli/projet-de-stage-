@@ -1,0 +1,158 @@
+<div style="display: flex; flex-direction: row; align-items: center; padding: 0;">
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 2px; margin-right: 8px;">
+    <div
+      style="display: flex; align-items: center; justify-content: center; border-radius: 32px; padding: 4px; border: 1px solid #ecedf0; background-color: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .039);">
+      <img src="https://cdn.manomano.com/images/images_products/1382797/T/8691599_1.jpg" alt="" style="
+                border: 1px solid #ecedf0;
+                border-radius: 24px;
+                padding: 4px;
+                width: 32px; /* Augmenté de 2px */
+                height: 32px; /* Augmenté de 2px */
+                margin-right: 4px;
+            ">
+      <span
+        style="white-space: nowrap; margin-right: 4px; color: #0c193a; font-size: 16px; font-weight: 600; line-height: 22px; letter-spacing: 0; text-align: left;">Piscine
+        tabulaire</span>
+    </div>
+  </div>
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 2px; margin-right: 8px;">
+    <div
+      style="display: flex; align-items: center; justify-content: center; border-radius: 32px; padding: 4px; border: 1px solid #ecedf0; background-color: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .039);">
+      <img src="https://cdn.manomano.com/images/images_products/2829210/T/39159289_1.jpg" alt="" style="
+                border: 1px solid #ecedf0;
+                border-radius: 24px;
+                padding: 4px;
+                width: 32px; /* Augmenté de 2px */
+                height: 32px; /* Augmenté de 2px */
+                margin-right: 4px;
+            ">
+      <span
+        style="white-space: nowrap; margin-right: 4px; color: #0c193a; font-size: 16px; font-weight: 600; line-height: 22px; letter-spacing: 0; text-align: left;">Piscine
+        hors sol</span>
+    </div>
+  </div>
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 2px; margin-right: 8px;">
+    <div
+      style="display: flex; align-items: center; justify-content: center; border-radius: 32px; padding: 4px; border: 1px solid #ecedf0; background-color: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .039);">
+      <img src="https://cdn.manomano.com/images/C/cat_2827.jpg" alt="" style="
+                border: 1px solid #ecedf0;
+                border-radius: 24px;
+                padding: 4px;
+                width: 32px; /* Augmenté de 2px */
+                height: 32px; /* Augmenté de 2px */
+                margin-right: 4px;
+            ">
+      <span
+        style="white-space: nowrap; margin-right: 4px; color: #0c193a; font-size: 16px; font-weight: 600; line-height: 22px; letter-spacing: 0; text-align: left;">Piscine
+        gonflable</span>
+    </div>
+  </div>
+  <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 2px;">
+    <div
+      style="display: flex; align-items: center; justify-content: center; border-radius: 32px; padding: 4px; border: 1px solid #ecedf0; background-color: #fff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .039);">
+      <img src="https://cdn.manomano.com/images/images_products/1273202/T/8340037_1.jpg" alt="" style="
+                border: 1px solid #ecedf0;
+                border-radius: 24px;
+                padding: 4px;
+                width: 32px; /* Augmenté de 2px */
+                height: 32px; /* Augmenté de 2px */
+                margin-right: 4px;
+            ">
+      <span
+        style="white-space: nowrap; margin-right: 4px; color: #0c193a; font-size: 16px; font-weight: 600; line-height: 22px; letter-spacing: 0; text-align: left;">Piscine
+        enfant</span>
+    </div>
+  </div>
+</div>
+<div *ngIf="articles && articles.length > 0;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div *ngFor="let article of articles" class="card" style="width: 22%; margin: 1%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <div style="display: flex; justify-content: center;">
+        <img [src]="article.mainImg" class="card-img-top" alt="Piscine"
+          style="border: 1px solid #ecedf0; border-radius: 24px; padding: 4px; width: 100%; height: auto;">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: left;">
+          <img [src]="article.image" alt="Brand Image" style="width: 75px; height: auto;">
+        </h5>
+        <div style="display: flex; align-items:center; margin-top: 1px;">
+          <span class="NNl5SI" style="color: gray; font-size: 12px;">{{article.brand}}</span>
+          <svg aria-hidden="true" focusable="false" height="14px" role="presentation" width="14px" viewBox="0 0 24 24"
+            fill="gray" style="margin-left: 4px;">
+            <path
+              d="M11 7h2v2h-2V7zm1 4c.55 0 1 .45 1 1v4c0 .55-.45 1-1 1s-1-.45-1-1v-4c0-.55.45-1 1-1zm0-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+            </path>
+          </svg>
+        </div>
+        <p class="card-text"
+          style="width: 100%; max-width: 100%; height: 60px; color: #0c193a; margin: 0; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; text-align: left; font-size: 14px; line-height: 20px; font-weight: 600;">
+          {{article.title}}
+        </p>
+        <div>
+          <span style="margin-left: 5px; color: #505971; font-size: 12px; text-decoration: line-through;">
+            {{article.price_initial}}
+          </span>
+        </div>
+        <div>
+          <b>
+            <h5>{{article.price_final}}</h5>
+          </b>
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDDNQEQ_PqlgJkworc9E2Oeeab_hSmQcne-Q&s"
+            alt="Image" style="width: 18px; height: auto; vertical-align: middle; margin-right: 4px;">
+          <span
+            style="font-size: 13px; vertical-align: middle;font-family: Open Sans, mm-main, tahoma, arial, sans-serif; letter-spacing: normal;">{{article.laiv}}</span>
+            
+        </div>
+      </div>
+    </div>
+    <img src="https://cdn.manomano.com/media/campaign-manager/desktop_18ddc8d4-48cc-11ef-b005-ae2707a29fd0_2a9840fb-a8a6-41cd-b6c0-33d5d1c755bc_b57821ce404baea2ef3b0c296f348e8a4908bff5.jpg?w=1020&h=822&fit=cover&format=webp"
+         alt="Image"
+         width="328"
+         height="393"
+         style="
+            display: block;
+            width: 45%;
+            height: 120%;
+            border-radius: 4px;
+            object-fit: cover;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+            cursor: pointer;
+            color: -webkit-link;
+            font-family: 'Open Sans', 'mm-main', Tahoma, Arial, sans-serif;
+            font-size: 14px;
+            aspect-ratio: 328 / 393;
+                    ">
+
+  </div>
+  
+  </div>
+   <span><div aria-label="Page navigation example" style="text-align: center;"> 
+    <ul class="pagination" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" aria-label="Previous" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">1</a>
+      </li>
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">2</a>
+      </li>
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">...</a>
+      </li>
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">55</a>
+      </li>
+      <li class="page-item" style="margin-left: 4px; line-height: 1; text-align: center; font-size: 14px; cursor: default; box-sizing: border-box;">
+        <a class="page-link" href="#" aria-label="Next" style="color: #505971; text-decoration: none; padding: 8px 12px; display: inline-block;">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </div></span>
+
